@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.52.10.134:5000/feisty-gasket-242923/newdemo
+  tag: 0.0.2
   pullPolicy: IfNotPresent
 
 # define environment variables here as a map of key: value
